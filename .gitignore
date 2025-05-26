@@ -8,13 +8,17 @@ node_modules
 cache/
 out/
 
-# Ignores development broadcast logs
-!/broadcast
-/broadcast/*/31337/
-/broadcast/**/dry-run/
+# Avoid ignoring gitkeep
+!/**/.gitkeep
+
+# Keep the latest deployment only
+broadcast/*/*/*
 
 # Docs
 docs/
 
 # Dotenv file
 .env
+
+# Medusa
+crytic-export
