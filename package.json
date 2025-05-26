@@ -1,0 +1,17 @@
+{
+  "license": "MIT",
+  "name": "foundry-basics",
+  "description": "Production ready Solidity boilerplate with Foundry",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "forge build",
+    "test:unit": "forge test --match-contract Unit -vvv",
+    "lint:sol": "solhint 'src/**/*.sol' 'script/**/*.sol' 'test/**/*.sol'"
+  },
+  "dependencies": {
+    "solhint": "^5.1.0"
+  },
+  "devDependencies": {
+    "forge-std": "github:foundry-rs/forge-std#1.9.2"
+  }
+}
