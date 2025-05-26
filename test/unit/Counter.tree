@@ -1,0 +1,18 @@
+Counter::constructor
+├── when passing valid initial number
+│   ├── it deploys
+│   └──it sets the number to the initial number
+└── when passing zero as initial number
+    └── it reverts
+
+Counter::setNumber
+└── when called
+    └── it sets the number to the new number
+
+Counter::increment
+└── when called
+    └── it increments the number by 1
+
+Counter::number
+└── when called
+    └── it returns the current number

@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "scripts": {
     "build": "forge build",
+    "test": "forge test -vvv",
     "test:unit": "forge test --match-contract Unit -vvv",
     "lint:sol": "solhint 'src/**/*.sol' 'script/**/*.sol' 'test/**/*.sol'"
   },
