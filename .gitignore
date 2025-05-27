@@ -22,5 +22,5 @@ docs/
 
 # Medusa
 crytic-export
-test/invariant/fuzz/corpus
+test/invariants/fuzz/corpus
 slither_results.json
