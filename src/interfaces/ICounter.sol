@@ -2,36 +2,34 @@
 pragma solidity ^0.8.30;
 
 interface ICounter {
-
-  /*///////////////////////////////////////////////////////////////
+    /*///////////////////////////////////////////////////////////////
                             ERRORS
-  //////////////////////////////////////////////////////////////*/
+    //////////////////////////////////////////////////////////////*/
 
-  error InvalidNumber();
+    error InvalidNumber();
 
-  /*///////////////////////////////////////////////////////////////
+    /*///////////////////////////////////////////////////////////////
                             VARIABLES
-  //////////////////////////////////////////////////////////////*/
+    //////////////////////////////////////////////////////////////*/
 
-  /**
-   * @notice Get the current number
-   * @return The current number
-   */
-  function number() external view returns (uint256);
+    /**
+     * @notice Get the current number
+     * @return The current number
+     */
+    function number() external view returns (uint256);
 
-  /*///////////////////////////////////////////////////////////////
+    /*///////////////////////////////////////////////////////////////
                             LOGIC
-  //////////////////////////////////////////////////////////////*/
+    //////////////////////////////////////////////////////////////*/
 
- /**
-  * @notice Set the number to a new value
-  * @param _newNumber The new number to set
-  */
-  function setNumber(uint256 _newNumber) external;
+    /**
+     * @notice Set the number to a new value
+     * @param _newNumber The new number to set
+     */
+    function setNumber(uint256 _newNumber) external;
 
-  /**
-   * @notice Increment the number by 1
-   */
-  function increment() external;
-
+    /**
+     * @notice Increment the number by 1
+     */
+    function increment() external;
 }

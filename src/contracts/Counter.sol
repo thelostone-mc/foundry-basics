@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.30;
 
-import {ICounter} from "interfaces/ICounter.sol";
+import {ICounter} from "src/interfaces/ICounter.sol";
 
 contract Counter is ICounter {
     uint256 public number;
